@@ -123,13 +123,13 @@ const segments = [
 ];
 
 // Icon mapping helper
-const Icon = ({ name, className }: { name: string, className?: string }) => {
+const Icon = ({ name, className, size }: { name: string, className?: string, size?: number }) => {
   const icons: Record<string, any> = {
     Smartphone, Globe, Settings, Database, Cloud, Headset, CheckCircle2, 
     Users, Briefcase, History, Monitor, Cpu, GraduationCap, Code2, Terminal, Layers
   };
   const LucideIcon = icons[name];
-  return LucideIcon ? <LucideIcon className={className} /> : null;
+  return LucideIcon ? <LucideIcon className={className} size={size} /> : null;
 };
 
 // --- Components ---
