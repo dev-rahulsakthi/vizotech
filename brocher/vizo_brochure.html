@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizo Technologies | Official Company Brochure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #f8fafc;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+        .brochure-canvas {
+            width: 1200px;
+            background: white;
+            position: relative;
+            box-shadow: 0 50px 100px -20px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+        .section-gradient {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+        .text-balance { text-wrap: balance; }
+        .project-card {
+            height: 280px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 24px;
+        }
+        .overlay {
+            background: linear-gradient(to top, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.4) 100%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="brochure-canvas">
+        <!-- Header Section -->
+        <header class="section-gradient p-20 text-white relative overflow-hidden">
+            <div class="relative z-10 flex justify-between items-start">
+                <div>
+                    <div class="flex items-center gap-3 mb-12">
+                        <div class="bg-white p-2 rounded-xl">
+                            <img src="../public/favicon.ico" alt="Logo" class="w-10 h-10">
+                        </div>
+                        <span class="text-3xl font-extrabold tracking-tighter uppercase">Vizo Technologies</span>
+                    </div>
+                    <h1 class="text-7xl font-extrabold leading-tight mb-6">Innovative <br>Digital <span class="text-blue-200">Excellence.</span></h1>
+                    <p class="text-2xl font-medium text-blue-50/80 max-w-2xl leading-relaxed">
+                        Transforming complex business challenges into elegant digital realities through world-class software engineering.
+                    </p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl text-right">
+                    <p class="text-blue-200 font-bold uppercase tracking-widest text-xs mb-2">Established</p>
+                    <p class="text-3xl font-black italic">2024</p>
+                </div>
+            </div>
+            <!-- Decorative Circles -->
+            <div class="absolute -bottom-20 -right-20 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+            <div class="absolute top-0 left-1/2 w-64 h-64 bg-blue-400/20 rounded-full blur-3xl"></div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="p-20 space-y-24">
+            
+            <!-- About & Stats -->
+            <div class="grid grid-cols-12 gap-16 items-center">
+                <div class="col-span-7">
+                    <h2 class="text-xs font-black text-blue-600 uppercase tracking-[0.3em] mb-4">The Vizo Advantage</h2>
+                    <h3 class="text-4xl font-extrabold text-slate-900 mb-8">Professional Solutions for a Modern Era</h3>
+                    <p class="text-slate-600 text-lg leading-relaxed mb-8">
+                        Vizo Software Solutions is a premier technology firm dedicated to the art of digital transformation. We bridge the gap between vision and execution, delivering high-performance applications that drive real business growth.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                            <p class="text-3xl font-black text-slate-900">10+</p>
+                            <p class="text-sm font-bold text-slate-500 uppercase tracking-widest">Global Clients</p>
+                        </div>
+                        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                            <p class="text-3xl font-black text-slate-900">10+</p>
+                            <p class="text-sm font-bold text-slate-500 uppercase tracking-widest">Expert Engineers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-5 bg-slate-900 rounded-[3rem] p-12 text-white relative overflow-hidden">
+                    <h4 class="text-xl font-bold mb-8 uppercase tracking-widest text-blue-400">Core Pillars</h4>
+                    <ul class="space-y-6">
+                        <li class="flex items-center gap-4">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <span class="font-medium text-slate-300 italic text-lg">User-Centric Design</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <span class="font-medium text-slate-300 italic text-lg">Scalable Architecture</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <span class="font-medium text-slate-300 italic text-lg">Agile Methodology</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <span class="font-medium text-slate-300 italic text-lg">AI-First Innovation</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div>
+                <div class="text-center mb-16">
+                    <h2 class="text-xs font-black text-blue-600 uppercase tracking-[0.3em] mb-4 text-center">Our Expertise</h2>
+                    <h3 class="text-5xl font-extrabold text-slate-900">Elite Software Services</h3>
+                </div>
+                <div class="grid grid-cols-3 gap-8 text-center">
+                    <div class="p-8 bg-white border border-slate-100 rounded-[2rem] shadow-sm hover:shadow-xl transition-all">
+                        <h4 class="text-xl font-bold text-slate-900 mb-3">Web & Mobile</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed text-balance">Native iOS/Android and scalable web platforms built for high performance.</p>
+                    </div>
+                    <div class="p-8 bg-white border border-slate-100 rounded-[2rem] shadow-sm hover:shadow-xl transition-all">
+                        <h4 class="text-xl font-bold text-slate-900 mb-3">AI & ML R&D</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed text-balance">Custom artificial intelligence models and predictive analytics for your data.</p>
+                    </div>
+                    <div class="p-8 bg-white border border-slate-100 rounded-[2rem] shadow-sm hover:shadow-xl transition-all">
+                        <h4 class="text-xl font-bold text-slate-900 mb-3">Custom Software</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed text-balance">Tailored enterprise systems designed to fit your unique business workflows.</p>
+                    </div>
+                    <div class="p-8 bg-white border border-slate-100 rounded-[2rem] shadow-sm hover:shadow-xl transition-all">
+                        <h4 class="text-xl font-bold text-slate-900 mb-3">API Systems</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed text-balance">Robust and secure backend architectures for seamless integrations.</p>
+                    </div>
+                    <div class="p-8 bg-white border border-slate-100 rounded-[2rem] shadow-sm hover:shadow-xl transition-all">
+                        <h4 class="text-xl font-bold text-slate-900 mb-3">Cloud Solutions</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed text-balance">AWS/Azure migration and infrastructure optimization for modern scale.</p>
+                    </div>
+                    <div class="p-8 bg-white border border-slate-100 rounded-[2rem] shadow-sm hover:shadow-xl transition-all">
+                        <h4 class="text-xl font-bold text-slate-900 mb-3">24/7 Support</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed text-balance">Continuous monitoring, maintenance, and high-availability reliability.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Courses Section -->
+            <div class="bg-blue-50 rounded-[4rem] p-16">
+                <div class="grid grid-cols-12 gap-12 items-center">
+                    <div class="col-span-5">
+                        <h2 class="text-xs font-black text-blue-600 uppercase tracking-[0.3em] mb-4">Training Division</h2>
+                        <h3 class="text-4xl font-extrabold text-slate-900 mb-6 leading-tight text-balance">Upskilling the Next Generation of Tech Leaders</h3>
+                        <p class="text-slate-600 mb-8 leading-relaxed">
+                            Our industrial courses bridge the gap between academic theory and real-world implementation.
+                        </p>
+                    </div>
+                    <div class="col-span-7 grid grid-cols-2 gap-6 text-center">
+                        <div class="bg-white p-8 rounded-3xl border border-blue-100 shadow-sm">
+                            <p class="text-blue-600 font-black text-[10px] uppercase mb-2 tracking-widest">Web Mastery</p>
+                            <h4 class="text-lg font-extrabold text-slate-900 uppercase">Full Stack MERN</h4>
+                        </div>
+                        <div class="bg-white p-8 rounded-3xl border border-blue-100 shadow-sm">
+                            <p class="text-blue-600 font-black text-[10px] uppercase mb-2 tracking-widest">Data Science</p>
+                            <h4 class="text-lg font-extrabold text-slate-900 uppercase">AI & Machine Learning</h4>
+                        </div>
+                        <div class="bg-white p-8 rounded-3xl border border-blue-100 shadow-sm">
+                            <p class="text-blue-600 font-black text-[10px] uppercase mb-2 tracking-widest">Infrastructure</p>
+                            <h4 class="text-lg font-extrabold text-slate-900 uppercase">DevOps Engineering</h4>
+                        </div>
+                        <div class="bg-white p-8 rounded-3xl border border-blue-100 shadow-sm">
+                            <p class="text-blue-600 font-black text-[10px] uppercase mb-2 tracking-widest">React Native/Flutter</p>
+                            <h4 class="text-lg font-extrabold text-slate-900 uppercase">Mobile Frameworks</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div>
+                <div class="flex justify-between items-end mb-16">
+                    <div>
+                        <h2 class="text-xs font-black text-blue-600 uppercase tracking-[0.3em] mb-4">Portfolio</h2>
+                        <h3 class="text-5xl font-extrabold text-slate-900 uppercase">Success Stories</h3>
+                    </div>
+                    <p class="text-slate-500 font-bold bg-slate-100 px-6 py-2 rounded-full italic">10+ Global Deliveries</p>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="project-card shadow-lg group">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 overlay flex flex-col justify-end p-8 text-left">
+                            <span class="text-blue-400 font-black text-xs uppercase tracking-widest mb-2">FinTech</span>
+                            <h4 class="text-2xl font-extrabold text-white">Vizo Finance (Web & Mobile)</h4>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card shadow-lg group">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 overlay flex flex-col justify-end p-8 text-left">
+                            <span class="text-blue-400 font-black text-xs uppercase tracking-widest mb-2">E-Commerce</span>
+                            <h4 class="text-2xl font-extrabold text-white">Vizo EShop</h4>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card shadow-lg group">
+                        <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 overlay flex flex-col justify-end p-8 text-left">
+                            <span class="text-blue-400 font-black text-xs uppercase tracking-widest mb-2">Healthcare</span>
+                            <h4 class="text-2xl font-extrabold text-white">Vizo Blood Buddy (Mobile)</h4>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card shadow-lg group">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 overlay flex flex-col justify-end p-8 text-left">
+                            <span class="text-blue-400 font-black text-xs uppercase tracking-widest mb-2">Hospitality</span>
+                            <h4 class="text-2xl font-extrabold text-white">Hotel Management System</h4>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card shadow-lg group">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 overlay flex flex-col justify-end p-8 text-left">
+                            <span class="text-blue-400 font-black text-xs uppercase tracking-widest mb-2">Enterprise</span>
+                            <h4 class="text-2xl font-extrabold text-white">Billing Software and E-Billing</h4>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="project-card shadow-lg group">
+                        <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 overlay flex flex-col justify-end p-8 text-left">
+                            <span class="text-blue-400 font-black text-xs uppercase tracking-widest mb-2">Agriculture</span>
+                            <h4 class="text-2xl font-extrabold text-white">VeggiePro - Product Management</h4>
+                        </div>
+                    </div>
+                    <!-- Project 7 -->
+                    <div class="project-card shadow-lg group">
+                        <img src="https://images.unsplash.com/photo-1454165833767-027ffea9e77b?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 overlay flex flex-col justify-end p-8 text-left">
+                            <span class="text-blue-400 font-black text-xs uppercase tracking-widest mb-2">Corporate</span>
+                            <h4 class="text-2xl font-extrabold text-white">Assets Management</h4>
+                        </div>
+                    </div>
+                    <!-- Project 8 -->
+                    <div class="project-card shadow-lg group">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 overlay flex flex-col justify-end p-8 text-left">
+                            <span class="text-blue-400 font-black text-xs uppercase tracking-widest mb-2">Retail</span>
+                            <h4 class="text-2xl font-extrabold text-white">E-Commerce Platforms</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <footer class="bg-slate-950 p-20 text-white">
+            <div class="grid grid-cols-12 gap-16">
+                <div class="col-span-6 text-left">
+                    <h3 class="text-5xl font-black mb-8 leading-tight uppercase">Ready to start <br>your <span class="text-blue-500 underline decoration-4 underline-offset-8">journey?</span></h3>
+                    <p class="text-slate-400 text-xl font-medium mb-12">Connect with our engineering experts today for a consultation.</p>
+                    <div class="flex items-center gap-4 bg-white/5 p-6 rounded-3xl border border-white/10 w-fit">
+                        <img src="../public/favicon.ico" alt="Logo" class="w-12 h-12">
+                        <div class="text-left">
+                            <p class="text-lg font-black leading-none uppercase">Vizo Technologies</p>
+                            <p class="text-blue-500 font-bold text-xs tracking-[0.2em] mt-1 uppercase">Official Partner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-6 space-y-8 text-left">
+                    <div>
+                        <p class="text-blue-500 font-black text-xs uppercase tracking-widest mb-3 text-left">Reach Out</p>
+                        <p class="text-2xl font-bold">vizosoftwares@gmail.com</p>
+                    </div>
+                    <div>
+                        <p class="text-blue-500 font-black text-xs uppercase tracking-widest mb-3 text-left">Call Us</p>
+                        <p class="text-2xl font-bold">+91 63796 91338</p>
+                        <p class="text-xl font-medium text-slate-400 mt-1">+91 96772 53577 | +91 79049 84839</p>
+                    </div>
+                    <div>
+                        <p class="text-blue-500 font-black text-xs uppercase tracking-widest mb-3 text-left">Global HQ</p>
+                        <p class="text-xl font-medium leading-relaxed text-slate-300">
+                            200A/3, Main Road, Hyundai Showroom Upstairs, <br> Ambasamudram, Tirunelveli, Tamil Nadu, India
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20 pt-10 border-t border-white/10 flex justify-between items-center text-slate-500 text-sm font-bold">
+                <p>© 2026 VIZO SOFTWARE SOLUTIONS. All rights reserved.</p>
+                <div class="flex gap-8 uppercase tracking-widest">
+                    <span>Web</span>
+                    <span>Mobile</span>
+                    <span>AI/ML</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

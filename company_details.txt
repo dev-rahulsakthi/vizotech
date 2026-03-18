@@ -1,0 +1,53 @@
+VIZO Software Solutions - Company Profile
+==========================================
+
+About VIZO Software Solutions
+-----------------------------
+VIZO Software Solutions is a professional software development company dedicated to transforming ideas into digital reality. We craft exceptional mobile and web applications tailored for businesses, startups, and individuals. At VIZO, we believe in turning complex challenges into elegant digital solutions through the expertise of our passionate team of developers, designers, and strategists.
+
+Our Services
+------------
+- Web and Mobile App Development: Native and cross-platform applications for iOS and Android.
+- AI & ML Research and Development
+- Custom Software Solutions: Tailored software designed to meet unique business requirements.
+- API Development: Robust and secure APIs for seamless integration.
+- Cloud Solutions: Cloud-native applications and migration services.
+- Support & Maintenance: Ongoing 24/7 support to keep applications running smoothly.
+
+Our Courses
+------------
+- Web & Mobile Development
+- MERN Stack
+- AI and ML
+- DevOps
+
+Our Projects
+------------
+We have successfully delivered products for real-world businesses, including:
+- Vizo Finance (Web & Mobile)
+- Vizo EShop
+- Vizo Blood Buddy (Mobile)
+- Hotel Management System
+- Billing Software and E-Billing
+- E-Commerce Platforms
+- Assets Management
+- VeggiePro - Product Management
+
+Who We Serve
+------------
+- Startups: We help launch MVPs quickly to validate ideas and attract investors.
+- Businesses: We streamline operations with custom software that scales with growth.
+- Enterprises: We provide robust security, compliance, and performance for mission-critical applications.
+
+Company Stats
+-------------
+- 10+ Projects Delivered
+- 5+ Happy Clients
+- 10+ Team Members
+- 2+ Years of Experience
+
+Contact Information
+-------------------
+- Email: vizosoftwares@gmail.com
+- Phone: +91-6379691338, +91-9677253577, +91-7904984839
+- Address: 200A/3, Main Road, Hyundai Showroom Upstairs, Ambasamudram, Tirunelveli, Tamil Nadu, India
