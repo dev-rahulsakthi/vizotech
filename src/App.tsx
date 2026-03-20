@@ -70,7 +70,7 @@ const courses = [
     iconName: "Monitor"
   },
   {
-    title: "MERN Stack",
+    title: "MERN Full Stack",
     description: "Master full-stack development using MongoDB, Express, React, and Node.js.",
     iconName: "Code2"
   },
@@ -80,9 +80,34 @@ const courses = [
     iconName: "Terminal"
   },
   {
-    title: "DevOps",
+    title: "Linux administration",
+    description: "Master enterprise Linux environments, shell scripting, and server management.",
+    iconName: "Settings"
+  },
+  {
+    title: "Network administration",
+    description: "Learn networking fundamentals, routing, switching, and network security.",
+    iconName: "Globe"
+  },
+  {
+    title: "Cybersecurity",
+    description: "Protect systems and networks from digital attacks and data breaches.",
+    iconName: "Headset"
+  },
+  {
+    title: "Devops",
     description: "Master focus on CI/CD, Docker, Kubernetes, and cloud automation.",
     iconName: "Layers"
+  },
+  {
+    title: "AWS CloudOps",
+    description: "Architect and manage scalable cloud infrastructure on Amazon Web Services.",
+    iconName: "Cloud"
+  },
+  {
+    title: "Azure CloudOps",
+    description: "Build and deploy mission-critical solutions on Microsoft Azure cloud.",
+    iconName: "Database"
   }
 ];
 

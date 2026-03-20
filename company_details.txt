@@ -17,9 +17,14 @@ Our Services
 Our Courses
 ------------
 - Web & Mobile Development
-- MERN Stack
+- MERN Full Stack
 - AI and ML
-- DevOps
+- Linux administration 
+- Network administration 
+- Cybersecurity
+- Devops 
+- AWS CloudOps 
+- Azure CloudOps
 
 Our Projects
 ------------
