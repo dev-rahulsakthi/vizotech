@@ -23,8 +23,7 @@ Our Courses
 - Network administration 
 - Cybersecurity
 - Devops 
-- AWS CloudOps 
-- Azure CloudOps
+- AWS & Azure CloudOps 
 
 Our Projects
 ------------

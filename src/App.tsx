@@ -100,14 +100,9 @@ const courses = [
     iconName: "Layers"
   },
   {
-    title: "AWS CloudOps",
-    description: "Architect and manage scalable cloud infrastructure on Amazon Web Services.",
+    title: "AWS & Azure CloudOps",
+    description: "Architect, deploy and manage scalable cloud infrastructure on AWS and Microsoft Azure.",
     iconName: "Cloud"
-  },
-  {
-    title: "Azure CloudOps",
-    description: "Build and deploy mission-critical solutions on Microsoft Azure cloud.",
-    iconName: "Database"
   }
 ];
 
@@ -115,6 +110,7 @@ const projects = [
   { name: "Vizo Finance", category: "Web & Mobile", desc: "A robust financial ecosystem for tracking, reporting, and managing assets." },
   { name: "Vizo EShop", category: "E-Commerce", desc: "A feature-rich digital storefront optimized for high conversion and scale." },
   { name: "Vizo Blood Buddy", category: "Mobile App", desc: "A community-driven platform connecting blood donors with recipients in real-time." },
+  // { name: "Vizo Chat", category: "AI Chat Web App", desc: "A sophisticated AI-powered conversational platform for real-time interaction and assistance." },
   { name: "Hotel Management System", category: "Enterprise", desc: "An all-in-one suite for booking, room service, and hospitality staff management." },
   { name: "Billing Software and E-Billing", category: "Business Tool", desc: "Automated invoicing and digital ledger system for streamlined accounting." },
   { name: "E-Commerce Platforms", category: "Custom Solution", desc: "Bespoke digital marketplaces tailored for diverse industry niches." },
@@ -461,7 +457,7 @@ const App = () => {
               <div className="space-y-8 md:space-y-10">
                 {[
                   { icon: Mail, label: "Email Us", val: "vizosoftwares@gmail.com" },
-                  { icon: Phone, label: "Call Us", val: "+91 63796 91338", val2: "+91 96772 53577" },
+                  { icon: Phone, label: "Call Us", val: "+91 63796 91338", val2: "+91 96772 53577", val3: "+91 79049 84839" },
                   { icon: MapPin, label: "Visit Us", val: "Ambasamudram, Tirunelveli, Tamil Nadu, India" }
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-6 group">
@@ -472,6 +468,7 @@ const App = () => {
                       <p className="text-slate-400 text-[10px] md:text-xs uppercase font-black tracking-[0.2em] mb-1">{item.label}</p>
                       <p className="text-lg md:text-xl font-bold text-slate-800">{item.val}</p>
                       {item.val2 && <p className="text-lg md:text-xl font-bold text-slate-800">{item.val2}</p>}
+                      {/* {item.val3 && <p className="text-lg md:text-xl font-bold text-slate-800">{item.val3}</p>} */}
                     </div>
                   </div>
                 ))}
