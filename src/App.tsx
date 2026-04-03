@@ -457,7 +457,7 @@ const App = () => {
               <div className="space-y-8 md:space-y-10">
                 {[
                   { icon: Mail, label: "Email Us", val: "vizosoftwares@gmail.com" },
-                  { icon: Phone, label: "Call Us", val: "+91 63829 08738", val2: "+91 96772 53577", val3: "+91 79049 84839" },
+                  { icon: Phone, label: "Call Us", val: "+91 63829 08738", val2: "+91 63796 91338" },
                   { icon: MapPin, label: "Visit Us", val: "Ambasamudram, Tirunelveli, Tamil Nadu, India" }
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-6 group">
